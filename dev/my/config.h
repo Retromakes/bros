@@ -366,6 +366,9 @@ extern unsigned char def_keys [0];
 // Defines the behaviour for each tile. Remember that if keys are activated, tile #15 is a bolt
 // and, therefore, it should be made a full obstacle!
 
+// IMPORTANTE: Para definir qué tiles tapan el sprite y cuáles no hay que editar el fichero tilemap_conf.asm
+// las 2 primeras filas son para la fuente, y luego cada 4 son una tile (sup izq, sup der, inf izq, inf der) en MODE 0
+
 // 0 = Walkable (no action)
 // 1 = Walkable and kills.
 // 2 = Walkable and hides.
@@ -378,7 +381,7 @@ extern unsigned char def_keys [0];
 // Save for 10 (special), but that's obvious, innit?
 #ifndef COMPRESSED_LEVELS
 unsigned char behs [] = {
-	0, 1, 8, 0, 0, 0, 0, 0, 8, 4, 4, 1, 1, 0, 0, 8,
+	0, 0, 8, 0, 0, 0, 0, 0, 8, 4, 4, 1, 1, 0, 0, 8,
 	0, 0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 0, 0, 8, 0, 0,
 	8, 0, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 8, 0, 0,
 };

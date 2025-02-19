@@ -1,5 +1,5 @@
-DEFINED_CRT_ORG_CODE            = $0001 ; const, local, , cpc_crt0, , C:/Users/r4373259/AppData/Local/Temp/zcc0000754C890A4/zcc_opt.def:3
-CRT_ORG_CODE                    = $0400 ; const, local, , cpc_crt0, , C:/Users/r4373259/AppData/Local/Temp/zcc0000754C890A4/zcc_opt.def:4
+DEFINED_CRT_ORG_CODE            = $0001 ; const, local, , cpc_crt0, , C:/Users/r4373259/AppData/Local/Temp/zcc000072CCACD24/zcc_opt.def:3
+CRT_ORG_CODE                    = $0400 ; const, local, , cpc_crt0, , C:/Users/r4373259/AppData/Local/Temp/zcc000072CCACD24/zcc_opt.def:4
 start                           = $0400 ; addr, local, , cpc_crt0, , crt.asm:7
 T_WIDTH                         = $0020 ; const, local, , tilemap_conf_asm, , tilemap_conf.asm:66
 T_HEIGHT                        = $0018 ; const, local, , tilemap_conf_asm, , tilemap_conf.asm:67
@@ -535,7 +535,7 @@ viewport_x                      = $0001 ; const, public, , mk1_c, code_compiler,
 viewport_y                      = $0002 ; const, public, , mk1_c, code_compiler, autodefs.h:8
 tiles                           = $23ED ; addr, public, , mk1_c, code_compiler, assets/tileset.h::show_buffer_and_tiles::0::3:5
 _def_keys                       = $0566 ; addr, public, , mk1_c, , my/config.h:256
-_behs                           = $0B30 ; addr, public, , mk1_c, data_compiler, my/config.h:380
+_behs                           = $0B30 ; addr, public, , mk1_c, data_compiler, my/config.h:383
 _enems_init                     = $44FB ; addr, public, , mk1_c, code_compiler, engine/enengine.h::enems_init::0::71:66
 _enems_load                     = $4545 ; addr, public, , mk1_c, code_compiler, engine/enengine.h::enems_load::0::73:79
 _enems_kill                     = $4716 ; addr, public, , mk1_c, code_compiler, engine/enengine.h::enems_kill::0::80:235

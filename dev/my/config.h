@@ -25,7 +25,7 @@
 #define GENERAL_ENEMS_BASE_CELL 	8 		// Don't touch this unless you know what you are doing
 //#define MIN_FAPS_PER_FRAME 		2		// frame cap, *limits* to 50/N fps.
 
-#define BLACK_PEN 					0		// Which palette entry is black
+#define BLACK_PEN 					1		// Which palette entry is black
 
 #define PIXELPERFECT 						// If you use mode 0, don't forget the pixelperfectm0
 											// parameter to mkts when converting the main spriteset
@@ -39,12 +39,12 @@
 
 // In this section we define map dimensions, initial and authomatic ending conditions, etc.
 
-#define MAP_W						3		//
-#define MAP_H						12		// Map dimensions in screens
-#define SCR_INICIO					3		// Initial screen
-#define PLAYER_INI_X				6		//
-#define PLAYER_INI_Y				3		// Initial tile coordinates
-#define SCR_FIN 					34		// Last screen. 99 = deactivated.
+#define MAP_W						16		//
+#define MAP_H						1		// Map dimensions in screens
+#define SCR_INICIO					0		// Initial screen
+#define PLAYER_INI_X				2		//
+#define PLAYER_INI_Y				8		// Initial tile coordinates
+#define SCR_FIN 					15		// Last screen. 99 = deactivated.
 //#define PLAYER_FIN_X				99		//
 //#define PLAYER_FIN_Y				99		// Player tile coordinates to finish game
 //#define PLAYER_NUM_OBJETOS			25		// Objects to get to finish game
@@ -217,7 +217,7 @@
 //#define PLAYER_VKEYS 						// Use with VENG_SELECTOR. Advanced.
 //#define PLAYER_DISABLE_GRAVITY			// Disable gravity. Advanced.
 
-//#define PLAYER_STEPS_ON_ENEMIES			// If defined, stepping on enemies kills them
+#define PLAYER_STEPS_ON_ENEMIES			// If defined, stepping on enemies kills them
 //#define PLAYER_CAN_STEP_ON_FLAG	1		// If defined, player can only kill when flag # is "1"
 //#define PLAYER_MIN_KILLABLE		3		// Only kill enemies with id >= PLAYER_MIN_KILLABLE
 
@@ -378,7 +378,7 @@ extern unsigned char def_keys [0];
 // Save for 10 (special), but that's obvious, innit?
 #ifndef COMPRESSED_LEVELS
 unsigned char behs [] = {
-	0, 8, 8, 8, 8, 8, 8, 8, 8, 4, 4, 1, 1, 0, 0, 8,
+	0, 1, 8, 0, 0, 0, 0, 0, 8, 4, 4, 1, 1, 0, 0, 8,
 	0, 0, 0, 0, 0, 0, 0, 8, 0, 8, 0, 0, 0, 8, 0, 0,
 	8, 0, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 8, 0, 0,
 };

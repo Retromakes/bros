@@ -1,5 +1,3 @@
-# TARZANETE: De la boca al OGT
-Pal concurso de los mojones y los cepeceros y para sacar por fin un juebo decente pal anstrat
-
-Más info sobre el tema, con sus scrinchots, vídeocassettes, instrucciones y archivos pa juegar aquí:
-https://retromakes.itch.io/bocaogt
+# TARZANETE bros
+Un juebo que me servira pa aprender un poco más de la Pestecera de los Mojon Twins, de los graficazorls del Anstrad y de como puedo hacer algo de música que no dé tanto asco como el chusco que me salió para el de la boca al ohete
+https://retromakes.itch.io/bros

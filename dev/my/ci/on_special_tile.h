@@ -6,6 +6,8 @@
 
 // compruebo que el item de esta pantalla no esta a 0 (recogido)
 // y que el flag 31 (tocando objeto especial) ya no esta activo
+/*
 if ((flags[n_pant] != 0) && (flags[31] != 1)) {
     Recoge_Objeto(n_pant);
 }
+*/

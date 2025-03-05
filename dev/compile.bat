@@ -21,7 +21,7 @@ cd ..\dev
 
 if [%1]==[justscripts] goto :compile
 
-echo Convirtiendo mapa
+echo Convirtiendo mapa (el 15 final es el tile de cerrojo)
 ..\utils\mapcnv.exe ..\map\mapa.map assets\mapa.h 16 1 15 10 15
 
 echo Convirtiendo enemigos/hotspots
